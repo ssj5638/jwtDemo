@@ -23,13 +23,13 @@ public class NjuUser implements UserDetails {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(length = 100, nullable = false, unique = true)
+    @Column(length = 10)
     private String njuName;
 
-    @Column(length = 14, nullable = false)
+    @Column(length = 14, nullable = false, unique = true)
     private String njuSsn;
 
-    @Column(length = 10, nullable = false)
+    @Column(length = 10)
     private String njuBirthday;
 
     @Column(length = 300, nullable = false)

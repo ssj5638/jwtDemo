@@ -1,4 +1,4 @@
-package com.example.jwtdemo.nju;
+package com.example.jwtdemo.nju.controller;
 
 import com.example.jwtdemo.common.component.JwtTokenProvider;
 import com.example.jwtdemo.domain.NjuUser;
@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Collections;
-import java.util.Map;
 
 @RequiredArgsConstructor
 @RestController
